@@ -49,7 +49,7 @@ input.onButtonPressed(Button.AB, function () {
         `).scrollImage(1, 200)
     list = []
 })
-//when button b is pressed it grabs the first number in the list and removes it at the same time turnign off its led
+// when button b is pressed it grabs the first number in the list and removes it at the same time turnign off its led
 input.onButtonPressed(Button.B, function () {
     if (list.length == 0) {
         for (let index4 = 0; index4 <= 24; index4++) {
